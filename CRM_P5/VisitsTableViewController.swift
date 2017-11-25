@@ -25,7 +25,9 @@ class VisitsTableViewController: UITableViewController {
     var salesmanImg = [Int:UIImage]()
     
     //Creo esta variable para poner el header
+   
     @IBOutlet weak var navBar: UINavigationItem!
+    //@IBOutlet weak var navBar: UINavigationItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
